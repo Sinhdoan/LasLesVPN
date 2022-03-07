@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font-family: 'Rubik', sans-serif;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#hero{
+    background-color: var(--white-color);
+    height: 100%;
+}
+.menu,
+.btn-menu{
+    display: none;
+}
+/* header css */
+#header{
+    padding: 50px 0 30px;
+}
+.header-box{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 22px !important;
+}
+.header-logo a{
+    text-decoration: none;
+}
+.header-logo  img{
+    width: 150px;
+    height: 36.23px;
+}
+.header-nav > .nav-list{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+.nav-list li{
+    margin: 0 19px;
+}
+.nav-list li a{
+    position: relative;
+    color: var(--black-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.nav-list li:hover a{
+    color: var(--primany-color);
+}
+.nav-list li a > .hover-item{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: var(--primany-color);
+    transition: all 0.4s;
+}
+.nav-list li a:hover > .hover-item{
+    width: 100%;
+}
+.header-access{
+    text-align: center;
+}
+.header-access button{
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+.header-access button:first-child{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0 30px 0 0;
+    transition: all 0.3s;
+}
+.header-access button:first-child:hover{
+    color: var(--primany-color);
+}
+.header-access button:last-child{
+    width: 150px;
+    height: 45px;
+    outline: none;
+}
+
+/* hero css */
+.hero-box{
+    padding-top: 55px;
+}
+.hero-content{
+    padding-top: 20px;
+}
+.hero-content .hero-heading{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    color: var(--bold-color);
+}
+.hero-content .hero-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--black-color);
+}
+.hero-content .hero-btn{
+    position: relative;
+    background-color: var(--primany-color);
+    color: var(--white-color);
+    width: 250px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.hero-content .hero-btn:hover{
+    opacity: 0.8;
+}
+.hero-banner img{
+    width: 611px;
+    height: 382.44px;
+    padding-right: 26px;
+    
+}
